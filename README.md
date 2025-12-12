@@ -39,6 +39,7 @@ When you open a day, the puzzle description is shown in a webview.
 ### Project Structure
 
 -   `solutions/`: Contains solution files organized by year and day.
+    -   `solutions/shared/`: Shared utilities and functionality.
     -   Example: `solutions/2023/day01/`
         -   `solution.ts`: Your code.
         -   `input.txt`: The puzzle input.
