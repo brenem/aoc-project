@@ -19,29 +19,28 @@ To run and debug these solutions effectively, you need:
 
 ### Running Solutions
 
-You can run solutions directly from VS Code using the extension commands:
+The easiest way to run your solutions is using the **CodeLens** links that appear directly above your code in the editor:
 
--   **AoC: Run Part**: Runs the solution for the current part with real input.
--   **AoC: Run Part (Sample)**: Runs the solution with sample input.
+-   Click **Run** to execute the solution with your real input.
+-   Click **Debug** to debug the solution.
 
-Or via command line:
+You can also use the command palette or the run icons in the editor title bar.
 
-```bash
-npx ts-node solutions/YYYY/dayXX/solution.ts
-```
+### Working with Samples
 
-### Debugging
+You can create a `sample.txt` file in the day's folder to test your solution with example data.
+-   Use **CodeLens** to "Run (Sample)" or "Debug (Sample)" using this file.
 
+### Puzzle View
 
-1. Open a solution file (e.g., `solutions/2023/day01/solution.ts`).
-2. Add breakpoints.
-3. Open the "Run and Debug" view.
-4. Select "AoC: Debug Part" or "AoC: Debug Part (Sample)".
-5. Press F5.
+When you open a day, the puzzle description is shown in a webview.
+-   **Copy to Clipboard**: detailed sample inputs in the description often have a "Copy" button added by the extension for easy transfer to your `sample.txt`.
 
-## Project Structure
+### Project Structure
 
 -   `solutions/`: Contains solution files organized by year and day.
--   `inputs/`: (Optional) Cached input files.
+    -   Example: `solutions/2023/day01/`
+        -   `solution.ts`: Your code.
+        -   `input.txt`: The puzzle input.
 -   `package.json`: Dependencies.
 -   `tsconfig.json`: TypeScript configuration.
