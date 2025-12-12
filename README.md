@@ -27,8 +27,8 @@ The easiest way to run your solutions is using the **CodeLens** links that appea
 You can also use the command palette to run these commands.
 
 ### Working with Samples
-
-You can create a `sample.txt` file in the day's folder to test your solution with example data.
+ 
+A `sample.txt` file is created for you in the day's folder. You can use this file to test your solution with example data.
 -   Use **CodeLens** to "Run (Sample)" or "Debug (Sample)" using this file.
 
 ### Puzzle View
