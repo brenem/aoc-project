@@ -21,10 +21,10 @@ To run and debug these solutions effectively, you need:
 
 The easiest way to run your solutions is using the **CodeLens** links that appear directly above your code in the editor:
 
--   Click **Run** to execute the solution with your real input.
--   Click **Debug** to debug the solution.
+-   Click **Run Part 1** or **Run Part 2** to execute the specific part with your real input.
+-   Click **Debug Part 1** or **Debug Part 2** to debug the specific part.
 
-You can also use the command palette or the run icons in the editor title bar.
+You can also use the command palette to run these commands.
 
 ### Working with Samples
 
@@ -42,5 +42,5 @@ When you open a day, the puzzle description is shown in a webview.
     -   Example: `solutions/2023/day01/`
         -   `solution.ts`: Your code.
         -   `input.txt`: The puzzle input.
--   `package.json`: Dependencies.
+        -   `sample.txt`: Sample input.
 -   `tsconfig.json`: TypeScript configuration.
