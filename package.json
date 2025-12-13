@@ -1,0 +1,24 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "This repository contains solutions for [Advent of Code](https://adventofcode.com/) puzzles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenem/aoc-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brenem/aoc-project/issues"
+  },
+  "homepage": "https://github.com/brenem/aoc-project#readme",
+  "dependencies": {
+    "z3-solver": "^4.15.4"
+  }
+}
